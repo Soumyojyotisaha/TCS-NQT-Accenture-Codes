@@ -11,7 +11,6 @@ bool isAutomorphic(int N) {
     // Check if last digit is equal or not
     if (N % 10 != sq % 10)
       return false;
-
     // Reducing the number and its square
     N /= 10;
     sq /= 10;

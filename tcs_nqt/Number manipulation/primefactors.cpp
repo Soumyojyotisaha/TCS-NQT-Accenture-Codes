@@ -16,7 +16,7 @@ vector<int> getPrimeFactors(int n){
 }
 
 int main() {
-    int n = 60;
+    int n = 28;
     vector<int> ans = getPrimeFactors(n);
     cout << "Prime Factors for " << n << ": ";
     for(auto factor: ans){

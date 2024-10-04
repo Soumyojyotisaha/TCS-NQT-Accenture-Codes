@@ -21,7 +21,7 @@ int minRemoval(string str) {
 }
 
 int main() {
-    string str = "puamk";
+    string str = "madam";
     cout << minRemoval(str) << endl;
     return 0;
 }

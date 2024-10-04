@@ -18,9 +18,6 @@ int findGcd(int n1, int n2) {
             gcd = i;
         }
     }
-
-    // Return the greatest
-    // common divisor (gcd)
     return gcd;
 }
 
