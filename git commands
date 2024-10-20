@@ -1,0 +1,89 @@
+# Initial Configuration
+# View Git version
+git -v
+
+# Set global user name
+git config --global user.name "Soumyojyoti"
+
+# Set global email
+git config --global user.email "soumyojyotisaha2001offic@gmail.com"
+
+# Repository Initialization and Status
+# Initialize a repository
+git init
+
+# Navigate to .git directory
+cd .git
+
+# List contents of .git
+ls
+
+# Check the repository status
+git status
+
+# Staging, Committing, and Pushing Changes
+# Add a file to staging area
+git add names.cs
+
+# Commit the changes
+git commit -m "codes"
+
+# Push changes to remote main branch
+git push origin main
+
+# Viewing Logs and Differences
+# View Git log
+git log
+
+# Check differences between commits or the working directory
+git diff
+
+# View a condensed log (oneline view)
+git log --oneline
+
+# Show specific commit details
+git show <commit id>
+
+# Stashing and Resetting
+# Stash changes temporarily
+git stash
+
+# Pop the latest stash
+git stash pop
+
+# Commit stashed changes
+git commit -m "added code"
+
+# View oneline log after committing
+git log --oneline
+
+# Reverting and Blaming
+# Reset to a specific commit (destructive)
+git reset --hard <prev commit id>
+
+# Revert a specific commit (non-destructive)
+git revert <commit id>
+
+# Show line-by-line changes with git blame
+git blame names.cs
+
+# Remote Repository and Branch Management
+# Add a remote repository
+git remote add origin <url>
+
+# Push with upstream tracking
+git push -u origin main
+
+# Branching and Working with SSH
+# Checkout a new branch
+git checkout -b ankitBranch
+
+# Add and commit all changes
+git add .
+git commit -m "feature b"
+
+# Push new branch to the remote
+git push --set-upstream origin ankitBranch
+
+# SSH (Secure Shell)
+# Mention that SSH stands for Secure Shell.
